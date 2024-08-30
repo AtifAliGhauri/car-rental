@@ -33,7 +33,7 @@ const BlogItem = ({item}) =>{
                     <Link to={`/blogs/${title}`} className='read__more'>Read more</Link>
 
                     <div className='blog__time pt-3 mt-3 d-flex align-items-center justify-content-between'>
-                        <span className='blog__author'>
+                        {/* <span className='blog__author'>
                             <i className='ri-user-line'></i>{author}
                         </span>
 
@@ -45,7 +45,7 @@ const BlogItem = ({item}) =>{
                             <span className='d-flex align-items-center gap-1 section__description'>
                                 <i className='ri-time-line'></i>{time}
                             </span>
-                        </div>
+                        </div> */}
 
                     </div>
 

@@ -4,6 +4,7 @@ import Helmet from '../components/Helmet/Helmet'
 import CommonSection from '../components/UI/CommonSection'
 import { Link } from 'react-router-dom'
 import '../styles/contact.css'
+import Swal from 'sweetalert2'
 
 const socialLinks = [
     {
@@ -27,25 +28,57 @@ const socialLinks = [
 
 
 const Contact = () => {
+
+
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+    
+        formData.append("access_key", "da4953a7-0e5b-4c31-bb91-88fbc3a96f0a");
+    
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+    
+        const res = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json"
+          },
+          body: json
+        }).then((res) => res.json());
+    
+        if (res.success) {
+            Swal.fire({
+                title: "Thanks For Contacting Us ",
+                text: "One Of Our Agent will contact you soon or You Can Call Us 0203 376 5552",
+                icon: "success"
+              });
+        }
+      };
+
   return (
-    <Helmet title='Contact'>
-        <CommonSection title='Contact' />
+    <Helmet title='Contact Us'>
+        <CommonSection title='Contact Us' />
         <section>
             <Container>
                 <Row>
                     <Col lg='7' md='7'>
                         <h6 className='fw-bold'>Get In Touch</h6>
 
-                        <Form>
+                        <Form onSubmit={onSubmit}>
+                        <input hidden name='Query Select from Contact Us page : '/>
+
                             <FormGroup className='contact__form'>
-                                <Input type='text' placeholder='Your Name' />
+                                <Input type='text' name='Name' placeholder='Your Name' />
                             </FormGroup>
                             <FormGroup className='contact__form'>
-                                <Input type='email' placeholder='Email' />
+                                <Input type='email' name='email' placeholder='Email' />
                             </FormGroup>
                             <FormGroup className='contact__form'>
                                 <textarea 
                                     rows='5'
+                                    name='Mesage'
                                     placeholder='Message'
                                     className='textarea'></textarea>
                             </FormGroup>
@@ -56,15 +89,15 @@ const Contact = () => {
                         <div className='contact__info'>
                             <h6 className='fw-bold'>Contact Information</h6>
                             <p className='section__description mb-0'>
-                            231, Gulberg, Lahore , Pakistan
+                            Suite 558, 58 Peregrine Road, Hainault, Ilford, Essex, United Kingdom, IG6 3SZ
                             </p>
                             <div className='d-flex align-items-center gap-2'>
                                 <h6 className='mb-0 fs-6'>Phone:</h6>
-                                <p className='section__description mb-0'>+9247867842</p>
+                                <p className='section__description mb-0'>0203 376 5552</p>
                             </div>
                             <div className='d-flex align-items-center gap-2'>
                                 <h6 className='mb-0 fs-6'>Email:</h6>
-                                <p className='section__description mb-0'>example@gmail.com</p>
+                                <p className='section__description mb-0'>info@flightsbooker.co.uk</p>
                             </div>
 
                             <h6 className='fw-bold mt-4'>Follow Us</h6>

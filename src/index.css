@@ -78,11 +78,20 @@ section{
 @media only screen and (max-width:768px){
     section{
         padding: 30pxp 0px;
+        padding-bottom: inherit;
     }
     .section__title{
         font-size: 1.6rem;
     }
     .section__subtitle{
         font-size: 1.1rem;
+    }
+
+    .mobile__service{
+        padding-top: 420px;
+    }
+    .service__item{
+        text-align: center;
+        margin-bottom: -10px;
     }
 }

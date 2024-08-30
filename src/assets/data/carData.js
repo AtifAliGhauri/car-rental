@@ -1,140 +1,154 @@
 // import all images from assets/images directory
-import img01 from "../all-images/cars-img/nissan-offer.png";
-import img02 from "../all-images/cars-img/offer-toyota.png";
-import img03 from "../all-images/cars-img/bmw-offer.png";
-import img04 from "../all-images/cars-img/nissan-offer.png";
-import img05 from "../all-images/cars-img/offer-toyota.png";
-import img06 from "../all-images/cars-img/mercedes-offer.png";
-import img07 from "../all-images/cars-img/toyota-offer-2.png";
-import img08 from "../all-images/cars-img/mercedes-offer.png";
+import img01 from "../all-images/cars-img/Accra.jpg";
+import img02 from "../all-images/cars-img/Auckland.jpg";
+import img03 from "../all-images/cars-img/Bangkok.jpg";
+import img04 from "../all-images/cars-img/Dubai.jpg";
+import img05 from "../all-images/cars-img/Harare.jpeg";
+import img06 from "../all-images/cars-img/Lagos.jpg";
+import img07 from "../all-images/cars-img/Phuket.jpg";
+import img08 from "../all-images/cars-img/Sydney.jpg";
 
 const carData = [
   {
     id: 1,
-    brand: "Tesla",
+    brand: "",
     rating: 112,
-    carName: "Tesla Malibu",
+    //
+    carName: "Accra",
     imgUrl: img01,
-    model: "Model 3",
-    price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    model: "From Heathrow",
+    price: 437,
+    //
+    speed: "",
+    gps: "",
+    seatType: "",
+    automatic: "",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "",
   },
 
   {
     id: 2,
-    brand: "Toyota",
+    brand: "",
     rating: 102,
-    carName: "Toyota Aventador",
+    //
+    carName: "Auckland",
     imgUrl: img02,
-    model: "Model-2022",
-    price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    model: "From Heathrow",
+    price: 856,
+    //
+   speed: "",
+    gps: "",
+    seatType: "",
+    automatic: "",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "",
   },
 
   {
     id: 3,
-    brand: "BMW",
+    brand: "",
     rating: 132,
-    carName: "BMW X3",
+    //
+    carName: "Bangkok",
     imgUrl: img03,
-    model: "Model-2022",
-    price: 65,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    model: "From Heathrow",
+    price: 447,
+    //
+    speed: "",
+    gps: "",
+    seatType: "",
+    automatic: "",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "",
   },
 
   {
     id: 4,
-    brand: "Nissan",
+    brand: "",
     rating: 102,
-    carName: "Nissan Mercielago",
+    //
+    carName: "Dubai",
     imgUrl: img04,
-    model: "Model-2022",
-    price: 70,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    model: "From Heathrow",
+    price: 420,
+    //
+   speed: "",
+    gps: "",
+    seatType: "",
+    automatic: "",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "",
   },
 
   {
     id: 5,
-    brand: "Ferrari",
+    brand: "",
     rating: 94,
-    carName: "Ferrari Camry",
+    //
+    carName: "Harare",
     imgUrl: img05,
-    model: "Model-2022",
-    price: 45,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    model: "From Heathrow",
+    price: 512,
+    //
+   speed: "",
+    gps: "",
+    seatType: "",
+    automatic: "",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
-  },
+      "", },
 
   {
     id: 6,
-    brand: "Mercedes",
+    brand: "",
     rating: 119,
-    carName: "Mercedes Benz XC90",
+    //
+    carName: "Lagos",
     imgUrl: img06,
-    model: "Model-2022",
-    price: 85,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    model: "From Heathrow",
+    price: 499,
+    //
+    speed: "",
+    gps: "",
+    seatType: "",
+    automatic: "",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
-  },
+      "", },
 
   {
     id: 7,
-    brand: "Audi",
+    brand: "",
     rating: 82,
-    carName: "Audi Fiesta",
+    //
+    carName: "Phuket",
     imgUrl: img07,
-    model: "Model 3",
-    price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    model: "From Heathrow",
+    price: 531,
+    //
+    speed: "",
+    gps: "",
+    seatType: "",
+    automatic: "",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "",  
   },
 
   {
     id: 8,
-    brand: "Colorado",
+    brand: "",
     rating: 52,
-    carName: "Rolls Royce Colorado",
+    //
+    carName: "Sydney",
     imgUrl: img08,
-    model: "Model 3",
-    price: 50,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
+    model: "From Heathrow",
+    price: 815,
+    //
+    speed: "",
+    gps: "",
+    seatType: "",
+    automatic: "",
     description:
-      " Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam. Dolor labore lorem no accusam sit justo sadipscing labore invidunt voluptua, amet duo et gubergren vero gubergren dolor. At diam.",
+      "",
   },
 ];
 
