@@ -1,44 +1,44 @@
 const serviceData = [
   {
     id: 1,
-    title: "City Transfer",
+    title: "Worldwide Cheap Flights",
     icon: "ri-map-pin-2-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    //desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
   },
 
   {
     id: 2,
-    title: "Whole  City Tour",
+    title: "Cheap Fares Guaranteed",
     icon: "ri-community-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    //desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
   },
 
   {
     id: 3,
-    title: "Unlimited Miles Car Rental",
+    title: "Best Customer Services",
     icon: "ri-roadster-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    //desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
   },
 
   {
     id: 4,
-    title: "Fast & Easy Booking",
+    title: "Flexible Payment Plans",
     icon: "ri-timer-flash-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    //desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
   },
 
   {
     id: 5,
-    title: "Many Pickup Locations",
+    title: "Financial Protection",
     icon: "ri-map-pin-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+   // desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
   },
 
   {
     id: 6,
-    title: "Airport Transfer",
+    title: "Personalized Flight Deals",
     icon: "ri-flight-takeoff-line",
-    desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
+    //desc: "Tempor tempor sadipscing vero lorem sea, invidunt sed et eos ipsum et erat. Dolor ut duo sadipscing lorem. Gubergren gub",
   },
 ];
 

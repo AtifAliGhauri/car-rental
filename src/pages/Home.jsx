@@ -11,6 +11,8 @@ import CarItem from '../components/UI/CarItem'
 import BecomeDriverSection from '../components/UI/BecomeDriverSection'
 import Testimonial from '../components/UI/Testimonial'
 import BlogList from '../components/UI/BlogList'
+import Test__CARFORM from '../components/UI/Test__CARFORM'
+
 
 const Home = () => {
   return (
@@ -23,14 +25,15 @@ const Home = () => {
         <div className='hero__form'>
           <Container>
             <Row className='form__row'>
-              <Col lg='4' md='4'>
+              {/* <Col lg='4' md='4'>
                 <div className='find__cars-left'>
                   <h2>Find your best car here</h2>
                 </div>
-              </Col>
+              </Col> */}
 
-              <Col lg='8' md='8' sm='12'>
-                <FindCarForm />
+              <Col lg='12' md='8' sm='12'>
+                {/* <FindCarForm /> */}
+                <Test__CARFORM />
               </Col>
             </Row>
           </Container>
@@ -39,15 +42,15 @@ const Home = () => {
 
       {/* ========== about section =========== */}
 
-      <AboutSection />
+      {/* <AboutSection /> */}
 
       {/* ===========  services section =========== */}
       <section>
         <Container>
           <Row>
-            <Col lg='12' className='mb-5 text-center'>
-              <h6 className='section__subtitle'>See Our</h6>
-              <h2 className='section__title'>Popular Services</h2>
+            <Col lg='12' className='mobile__service mb-5 text-center'>
+              <h6 className='section__subtitle'>Why You </h6>
+              <h2 className='section__title'>Choose Us</h2>
             </Col>
 
             <ServiceList />
@@ -61,12 +64,12 @@ const Home = () => {
       <Container>
         <Row>
           <Col lg='12' className='text-center mb-5'>
-            <h6 className='section__subtitle'>Come with </h6>
-            <h2 className='section__title'>Hot Offers</h2>
+            <h6 className='section__subtitle'>Cheap Flights Deals </h6>
+            <h2 className='section__title'>Our Hot Destinations</h2>
           </Col>
 
           {
-            carData.slice(0, 6).map((item) => (
+            carData.slice(0, 12).map((item) => (
               <CarItem item={item} key={item.id} />
             ))
           }
@@ -80,7 +83,7 @@ const Home = () => {
 
         {/* ==============  testimonial section ============ */}
 
-        <section>
+        {/* <section>
           <Container>
             <Row>
               <Col lg='12' className='mb-4 text-center'>
@@ -91,7 +94,7 @@ const Home = () => {
               <Testimonial />
             </Row>
           </Container>
-        </section>
+        </section> */}
 
         {/* ==============  blog Section ============= */}
 

@@ -5,8 +5,8 @@ import CommonSection from '../components/UI/CommonSection'
 import BlogList from '../components/UI/BlogList'
 
 const Blog = () => {
-  return <Helmet title='Blogs'>
-    <CommonSection title='Blogs' />
+  return <Helmet title='Holidays'>
+    <CommonSection title='Holidays' />
 
     <section>
       <Container>
